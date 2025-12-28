@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.001549] (motor_controller) JobQueued: {'identifier': 'motor_controller', 'dependencies': OrderedDict()}
+[0.001692] (motor_controller) JobStarted: {'identifier': 'motor_controller'}
+[0.099053] (-) TimerEvent: {}
+[0.199666] (-) TimerEvent: {}
+[0.300334] (-) TimerEvent: {}
+[0.400986] (-) TimerEvent: {}
+[0.501609] (-) TimerEvent: {}
+[0.602173] (-) TimerEvent: {}
+[0.702795] (-) TimerEvent: {}
+[0.803434] (-) TimerEvent: {}
+[0.904039] (-) TimerEvent: {}
+[1.004619] (-) TimerEvent: {}
+[1.105311] (-) TimerEvent: {}
+[1.206141] (-) TimerEvent: {}
+[1.306909] (-) TimerEvent: {}
+[1.407605] (-) TimerEvent: {}
+[1.508260] (-) TimerEvent: {}
+[1.608989] (-) TimerEvent: {}
+[1.709569] (-) TimerEvent: {}
+[1.810166] (-) TimerEvent: {}
+[1.910757] (-) TimerEvent: {}
+[2.011327] (-) TimerEvent: {}
+[2.111924] (-) TimerEvent: {}
+[2.212558] (-) TimerEvent: {}
+[2.313199] (-) TimerEvent: {}
+[2.413842] (-) TimerEvent: {}
+[2.514550] (-) TimerEvent: {}
+[2.615648] (-) TimerEvent: {}
+[2.716503] (-) TimerEvent: {}
+[2.764997] (motor_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_controller', 'build', '--build-base', '/home/nam/robot_ws/build/motor_controller/build', 'install', '--record', '/home/nam/robot_ws/build/motor_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nam/robot_ws/src/motor_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nam', 'SSH_CLIENT': '10.42.0.1 60734 22', 'LC_TIME': 'vi_VN', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/nam', 'OLDPWD': '/home/nam/robot_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'vi_VN', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'nam', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'vi_VN', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'vi_VN', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'vi_VN', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'vi_VN', 'LC_IDENTIFICATION': 'vi_VN', 'PWD': '/home/nam/robot_ws/build/motor_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.0.1 60734 10.42.0.132 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nam/robot_ws/build/motor_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nam/robot_ws/install/motor_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'vi_VN', 'LC_PAPER': 'vi_VN', 'COLCON': '1'}, 'shell': False}
+[2.816641] (-) TimerEvent: {}
+[2.917379] (-) TimerEvent: {}
+[3.018042] (-) TimerEvent: {}
+[3.118664] (-) TimerEvent: {}
+[3.219268] (-) TimerEvent: {}
+[3.319852] (-) TimerEvent: {}
+[3.420437] (-) TimerEvent: {}
+[3.521000] (-) TimerEvent: {}
+[3.621608] (-) TimerEvent: {}
+[3.722213] (-) TimerEvent: {}
+[3.794445] (motor_controller) StdoutLine: {'line': b'running egg_info\n'}
+[3.796814] (motor_controller) StdoutLine: {'line': b'creating ../../build/motor_controller/motor_controller.egg-info\n'}
+[3.797556] (motor_controller) StdoutLine: {'line': b'writing ../../build/motor_controller/motor_controller.egg-info/PKG-INFO\n'}
+[3.798659] (motor_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_controller/motor_controller.egg-info/dependency_links.txt\n'}
+[3.799254] (motor_controller) StdoutLine: {'line': b'writing entry points to ../../build/motor_controller/motor_controller.egg-info/entry_points.txt\n'}
+[3.799822] (motor_controller) StdoutLine: {'line': b'writing requirements to ../../build/motor_controller/motor_controller.egg-info/requires.txt\n'}
+[3.800377] (motor_controller) StdoutLine: {'line': b'writing top-level names to ../../build/motor_controller/motor_controller.egg-info/top_level.txt\n'}
+[3.801193] (motor_controller) StdoutLine: {'line': b"writing manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'\n"}
+[3.807798] (motor_controller) StdoutLine: {'line': b"reading manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'\n"}
+[3.810949] (motor_controller) StdoutLine: {'line': b"writing manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'\n"}
+[3.811542] (motor_controller) StdoutLine: {'line': b'running build\n'}
+[3.811999] (motor_controller) StdoutLine: {'line': b'running build_py\n'}
+[3.812442] (motor_controller) StdoutLine: {'line': b'creating /home/nam/robot_ws/build/motor_controller/build\n'}
+[3.812974] (motor_controller) StdoutLine: {'line': b'creating /home/nam/robot_ws/build/motor_controller/build/lib\n'}
+[3.813421] (motor_controller) StdoutLine: {'line': b'creating /home/nam/robot_ws/build/motor_controller/build/lib/motor_controller\n'}
+[3.813774] (motor_controller) StdoutLine: {'line': b'copying motor_controller/motor_controller.py -> /home/nam/robot_ws/build/motor_controller/build/lib/motor_controller\n'}
+[3.814187] (motor_controller) StdoutLine: {'line': b'copying motor_controller/__init__.py -> /home/nam/robot_ws/build/motor_controller/build/lib/motor_controller\n'}
+[3.815166] (motor_controller) StdoutLine: {'line': b'running install\n'}
+[3.816435] (motor_controller) StdoutLine: {'line': b'running install_lib\n'}
+[3.819403] (motor_controller) StdoutLine: {'line': b'creating /home/nam/robot_ws/install/motor_controller/lib/python3.10/site-packages/motor_controller\n'}
+[3.820030] (motor_controller) StdoutLine: {'line': b'copying /home/nam/robot_ws/build/motor_controller/build/lib/motor_controller/motor_controller.py -> /home/nam/robot_ws/install/motor_controller/lib/python3.10/site-packages/motor_controller\n'}
+[3.820719] (motor_controller) StdoutLine: {'line': b'copying /home/nam/robot_ws/build/motor_controller/build/lib/motor_controller/__init__.py -> /home/nam/robot_ws/install/motor_controller/lib/python3.10/site-packages/motor_controller\n'}
+[3.822356] (-) TimerEvent: {}
+[3.823766] (motor_controller) StdoutLine: {'line': b'byte-compiling /home/nam/robot_ws/install/motor_controller/lib/python3.10/site-packages/motor_controller/motor_controller.py to motor_controller.cpython-310.pyc\n'}
+[3.825895] (motor_controller) StdoutLine: {'line': b'byte-compiling /home/nam/robot_ws/install/motor_controller/lib/python3.10/site-packages/motor_controller/__init__.py to __init__.cpython-310.pyc\n'}
+[3.826891] (motor_controller) StdoutLine: {'line': b'running install_data\n'}
+[3.827440] (motor_controller) StdoutLine: {'line': b'creating /home/nam/robot_ws/install/motor_controller/share/ament_index\n'}
+[3.827964] (motor_controller) StdoutLine: {'line': b'creating /home/nam/robot_ws/install/motor_controller/share/ament_index/resource_index\n'}
+[3.828417] (motor_controller) StdoutLine: {'line': b'creating /home/nam/robot_ws/install/motor_controller/share/ament_index/resource_index/packages\n'}
+[3.828738] (motor_controller) StdoutLine: {'line': b'copying resource/motor_controller -> /home/nam/robot_ws/install/motor_controller/share/ament_index/resource_index/packages\n'}
+[3.829178] (motor_controller) StdoutLine: {'line': b'copying package.xml -> /home/nam/robot_ws/install/motor_controller/share/motor_controller\n'}
+[3.829650] (motor_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.836029] (motor_controller) StdoutLine: {'line': b'Copying ../../build/motor_controller/motor_controller.egg-info to /home/nam/robot_ws/install/motor_controller/lib/python3.10/site-packages/motor_controller-0.0.0-py3.10.egg-info\n'}
+[3.841321] (motor_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[3.920164] (motor_controller) StdoutLine: {'line': b'Installing motor_node script to /home/nam/robot_ws/install/motor_controller/lib/motor_controller\n'}
+[3.921617] (motor_controller) StdoutLine: {'line': b"writing list of installed files to '/home/nam/robot_ws/build/motor_controller/install.log'\n"}
+[3.922720] (-) TimerEvent: {}
+[4.023914] (-) TimerEvent: {}
+[4.038093] (motor_controller) CommandEnded: {'returncode': 0}
+[4.097514] (motor_controller) JobEnded: {'identifier': 'motor_controller', 'rc': 0}
+[4.100291] (-) EventReactorShutdown: {}
