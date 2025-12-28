@@ -1,0 +1,24 @@
+[2.691s] Invoking command in '/home/nam/robot_ws/src/motor_controller': PYTHONPATH=/home/nam/robot_ws/build/motor_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nam/robot_ws/install/motor_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_controller build --build-base /home/nam/robot_ws/build/motor_controller/build install --record /home/nam/robot_ws/build/motor_controller/install.log --single-version-externally-managed install_data
+[3.717s] running egg_info
+[3.720s] writing ../../build/motor_controller/motor_controller.egg-info/PKG-INFO
+[3.722s] writing dependency_links to ../../build/motor_controller/motor_controller.egg-info/dependency_links.txt
+[3.723s] writing entry points to ../../build/motor_controller/motor_controller.egg-info/entry_points.txt
+[3.724s] writing requirements to ../../build/motor_controller/motor_controller.egg-info/requires.txt
+[3.725s] writing top-level names to ../../build/motor_controller/motor_controller.egg-info/top_level.txt
+[3.733s] reading manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'
+[3.738s] writing manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'
+[3.738s] running build
+[3.739s] running build_py
+[3.740s] copying motor_controller/motor_controller.py -> /home/nam/robot_ws/build/motor_controller/build/lib/motor_controller
+[3.742s] running install
+[3.743s] running install_lib
+[3.748s] copying /home/nam/robot_ws/build/motor_controller/build/lib/motor_controller/motor_controller.py -> /home/nam/robot_ws/install/motor_controller/lib/python3.10/site-packages/motor_controller
+[3.752s] byte-compiling /home/nam/robot_ws/install/motor_controller/lib/python3.10/site-packages/motor_controller/motor_controller.py to motor_controller.cpython-310.pyc
+[3.755s] running install_data
+[3.757s] running install_egg_info
+[3.764s] removing '/home/nam/robot_ws/install/motor_controller/lib/python3.10/site-packages/motor_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[3.766s] Copying ../../build/motor_controller/motor_controller.egg-info to /home/nam/robot_ws/install/motor_controller/lib/python3.10/site-packages/motor_controller-0.0.0-py3.10.egg-info
+[3.772s] running install_scripts
+[3.852s] Installing motor_node script to /home/nam/robot_ws/install/motor_controller/lib/motor_controller
+[3.855s] writing list of installed files to '/home/nam/robot_ws/build/motor_controller/install.log'
+[3.973s] Invoked command in '/home/nam/robot_ws/src/motor_controller' returned '0': PYTHONPATH=/home/nam/robot_ws/build/motor_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nam/robot_ws/install/motor_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_controller build --build-base /home/nam/robot_ws/build/motor_controller/build install --record /home/nam/robot_ws/build/motor_controller/install.log --single-version-externally-managed install_data
