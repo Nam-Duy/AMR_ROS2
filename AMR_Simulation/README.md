@@ -129,11 +129,14 @@ Terminal 4:
 source /opt/ros/<distro>/setup.bash
 source ~/AMR_Simulation/install/setup.bash
 ros2 run mybot_nav2_web_control nav2_speed_control
+Sử dụng thêm 1 terminal để theo dõi tốc độ theo phương X nhận đúng giá trị gửi xuống hay không như hình 4 : ros2 topic echo /cmd_vel
+Hoặc quan sát xem robot trên Rviz tốc độ có thay đổi hay không 
 ```
 <img width="1370" height="843" alt="image" src="https://github.com/user-attachments/assets/0f4549db-8fc6-4878-b541-1da939b9c0b5" />
 <img width="1370" height="843" alt="image" src="https://github.com/user-attachments/assets/3b8a036c-a162-4ced-950b-c45b83bbef37" />
 <img width="965" height="514" alt="image" src="https://github.com/user-attachments/assets/8cb0328d-cc59-4fdb-928b-0e8b34bea575" />
 <img width="1518" height="842" alt="image" src="https://github.com/user-attachments/assets/82e936e1-1b35-4a50-ac81-16e86ae0a6f4" />
+ 
 
 
 
