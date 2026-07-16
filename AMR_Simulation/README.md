@@ -102,9 +102,4 @@ Launch file này:
 
 ## Ghi chú
 
-- Package `mybot_navigation2` có launch file trong `src/mybot_navigation2/launch/`.
-- `bringup.launch.py` dùng `gazebo_ros` để chạy mô phỏng và spawn robot.
-- `launch_sim.launch.py` và `mapping.launch.py` dùng `slam_toolbox` để tạo bản đồ/mapping.
-- Khi mở RViz, hãy thêm display `Map` rồi chọn đúng topic bản đồ để xem và dựng bản đồ. Thông thường topic là `/map` hoặc `/slam_toolbox/map` tùy cấu hình của node SLAM.
-- File `ControlRobotOdom.py` được cài vào `install/lib/mybot_navigation2`.
-- Nếu cần thay đổi ROS distro, thay đổi lệnh `source /opt/ros/<distro>/setup.bash` phù hợp.
+
