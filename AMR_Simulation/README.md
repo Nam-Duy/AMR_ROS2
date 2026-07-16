@@ -58,6 +58,8 @@ cd ~/AMR_Simulation
 source /opt/ros/<distro>/setup.bash
 colcon build --symlink-install
 ```
+Sơ đồ hệ thống: 
+<img width="1440" height="1680" alt="image" src="https://github.com/user-attachments/assets/5eb12bcb-d57c-41ed-bec8-9cd53928f3ca" />
 
 ## Chạy mô phỏng và mapping
 
