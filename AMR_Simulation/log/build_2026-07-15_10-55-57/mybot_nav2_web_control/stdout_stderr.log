@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating mybot_nav2_web_control.egg-info
+writing mybot_nav2_web_control.egg-info/PKG-INFO
+writing dependency_links to mybot_nav2_web_control.egg-info/dependency_links.txt
+writing entry points to mybot_nav2_web_control.egg-info/entry_points.txt
+writing requirements to mybot_nav2_web_control.egg-info/requires.txt
+writing top-level names to mybot_nav2_web_control.egg-info/top_level.txt
+writing manifest file 'mybot_nav2_web_control.egg-info/SOURCES.txt'
+reading manifest file 'mybot_nav2_web_control.egg-info/SOURCES.txt'
+writing manifest file 'mybot_nav2_web_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nam/AMR_Simulation/install/mybot_nav2_web_control/lib/python3.10/site-packages/mybot-nav2-web-control.egg-link (link to .)
+Installing Vav2_speed_control script to /home/nam/AMR_Simulation/install/mybot_nav2_web_control/lib/mybot_nav2_web_control
+
+Installed /home/nam/AMR_Simulation/build/mybot_nav2_web_control
+running symlink_data
+creating /home/nam/AMR_Simulation/install/mybot_nav2_web_control/share/ament_index
+creating /home/nam/AMR_Simulation/install/mybot_nav2_web_control/share/ament_index/resource_index
+creating /home/nam/AMR_Simulation/install/mybot_nav2_web_control/share/ament_index/resource_index/packages
+symbolically linking /home/nam/AMR_Simulation/build/mybot_nav2_web_control/resource/mybot_nav2_web_control -> /home/nam/AMR_Simulation/install/mybot_nav2_web_control/share/ament_index/resource_index/packages
+symbolically linking /home/nam/AMR_Simulation/build/mybot_nav2_web_control/package.xml -> /home/nam/AMR_Simulation/install/mybot_nav2_web_control/share/mybot_nav2_web_control
+creating /home/nam/AMR_Simulation/install/mybot_nav2_web_control/share/mybot_nav2_web_control/launch
+symbolically linking /home/nam/AMR_Simulation/build/mybot_nav2_web_control/launch/Nav2_speed_control.launch.py -> /home/nam/AMR_Simulation/install/mybot_nav2_web_control/share/mybot_nav2_web_control/launch

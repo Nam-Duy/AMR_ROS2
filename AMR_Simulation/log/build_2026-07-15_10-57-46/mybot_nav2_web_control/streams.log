@@ -1,0 +1,17 @@
+[0.570s] Invoking command in '/home/nam/AMR_Simulation/build/mybot_nav2_web_control': PYTHONPATH=/home/nam/AMR_Simulation/build/mybot_nav2_web_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nam/AMR_Simulation/install/mybot_nav2_web_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nam/AMR_Simulation/build/mybot_nav2_web_control/build --no-deps symlink_data
+[0.816s] running develop
+[0.972s] running egg_info
+[0.972s] writing mybot_nav2_web_control.egg-info/PKG-INFO
+[0.972s] writing dependency_links to mybot_nav2_web_control.egg-info/dependency_links.txt
+[0.973s] writing entry points to mybot_nav2_web_control.egg-info/entry_points.txt
+[0.973s] writing requirements to mybot_nav2_web_control.egg-info/requires.txt
+[0.973s] writing top-level names to mybot_nav2_web_control.egg-info/top_level.txt
+[0.974s] reading manifest file 'mybot_nav2_web_control.egg-info/SOURCES.txt'
+[0.975s] writing manifest file 'mybot_nav2_web_control.egg-info/SOURCES.txt'
+[0.976s] running build_ext
+[0.976s] Creating /home/nam/AMR_Simulation/install/mybot_nav2_web_control/lib/python3.10/site-packages/mybot-nav2-web-control.egg-link (link to .)
+[0.977s] Installing nav2_speed_control script to /home/nam/AMR_Simulation/install/mybot_nav2_web_control/lib/mybot_nav2_web_control
+[0.977s] 
+[0.977s] Installed /home/nam/AMR_Simulation/build/mybot_nav2_web_control
+[0.977s] running symlink_data
+[1.002s] Invoked command in '/home/nam/AMR_Simulation/build/mybot_nav2_web_control' returned '0': PYTHONPATH=/home/nam/AMR_Simulation/build/mybot_nav2_web_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nam/AMR_Simulation/install/mybot_nav2_web_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nam/AMR_Simulation/build/mybot_nav2_web_control/build --no-deps symlink_data

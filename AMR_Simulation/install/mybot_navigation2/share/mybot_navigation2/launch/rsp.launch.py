@@ -1,0 +1,1 @@
+/home/nam/AMR_Simulation/src/mybot_navigation2/launch/rsp.launch.py

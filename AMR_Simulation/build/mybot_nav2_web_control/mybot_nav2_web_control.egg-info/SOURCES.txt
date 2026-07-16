@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+launch/Nav2_speed_control.launch.py
+mybot_nav2_web_control/Nav2_speed_control.py
+mybot_nav2_web_control/__init__.py
+mybot_nav2_web_control.egg-info/PKG-INFO
+mybot_nav2_web_control.egg-info/SOURCES.txt
+mybot_nav2_web_control.egg-info/dependency_links.txt
+mybot_nav2_web_control.egg-info/entry_points.txt
+mybot_nav2_web_control.egg-info/requires.txt
+mybot_nav2_web_control.egg-info/top_level.txt
+mybot_nav2_web_control.egg-info/zip-safe
+resource/mybot_nav2_web_control
